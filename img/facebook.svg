@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Logo-Grid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="entypo/facebook3" transform="translate(-1.000000, -1.000000)">
+            <rect id="Rectangle-path" x="0" y="0" width="20" height="20"></rect>
+            <path d="M16.39,1.853 L3.618,1.853 C2.447,1.853 1.489,2.81 1.489,3.981 L1.489,16.753 C1.489,17.924 2.447,18.882 3.618,18.882 L10.078,18.882 L10.078,12.776 L8.038,12.776 L8.038,10.116 L10.078,10.116 L10.078,8.783 C10.078,6.729 11.595,5.12 13.531,5.12 L15.411,5.12 L15.411,8.124 L13.729,8.124 C13.289,8.124 13.16,8.377 13.16,8.727 L13.16,10.117 L15.411,10.117 L15.411,12.777 L13.16,12.777 L13.16,18.883 L16.39,18.883 C17.561,18.883 18.519,17.925 18.519,16.754 L18.519,3.98 C18.519,2.81 17.561,1.853 16.39,1.853 L16.39,1.853 Z" id="Shape" fill="#5070FF" fill-rule="evenodd"></path>
+        </g>
+    </g>
+</svg>

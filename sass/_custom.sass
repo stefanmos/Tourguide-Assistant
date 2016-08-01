@@ -1,0 +1,206 @@
+// Custom SASS
+
+body
+  background: #F2F2F2
+
+.fa
+  color: #D3D3D3
+  padding: 10px 0
+
+nav
+  position: relative
+  width: 100%
+  padding: 20px
+  position: fixed
+  background: #FFF
+  top: 0
+  z-index: 9
+  left: 0
+  @media (max-width: $mobile)
+    padding: 15px
+  a
+    padding: 0 10px
+    text-transform: capitalize
+
+.HeaderImg
+  width: 100%
+
+.tour-block
+  position: relative
+  border: 5px solid #F2F2F2
+  border-radius: 10px
+  background: #FFF
+  height: 90px
+  width: 33.3%
+  float: left
+  padding: 10px
+  @media (max-width: $tablet)
+    width: 50%
+  @media (max-width: $mobile)
+    width: 100%
+  .TourName, .TourGuide, .Date
+    position: absolute
+    left: 10px
+  .TourName
+    top: 10px
+  .TourGuide
+    top: 30px
+  .Date
+    top: 55px
+  .RefNumber
+    position: absolute
+    top: 10px
+    right: 10px
+  ul
+    position: absolute
+    top: 50px
+    right: 5px
+    li
+      display: block
+      float: left
+      padding: 0
+      margin: 0
+      text-transform: uppercase
+      a
+        background: #FFF
+        color: #D3D3D3
+        padding: 5px
+        border-radius: 3px
+        font-weight: 500
+        font-size: 10px
+        &:hover
+          background: #F2F2F2
+
+.expense-block
+  position: relative
+  border: 5px solid #F2F2F2
+  border-radius: 10px
+  background: #FFF
+  height: 60px
+  width: 100%
+  float: left
+  padding: 10px
+  .TourName, .TourGuide, .Date
+    position: absolute
+    left: 10px
+  .TourName
+    top: 10px
+  .TourGuide
+    top: 30px
+  .Amount
+    position: absolute
+    top: 10px
+    right: 10px
+  ul
+    position: absolute
+    top: 30px
+    right: 5px
+    li
+      display: block
+      float: left
+      padding: 0
+      margin: 0
+      text-transform: uppercase
+      a
+        background: #FFF
+        color: #D3D3D3
+        padding: 5px
+        border-radius: 3px
+        font-weight: 500
+        font-size: 10px
+        &:hover
+          background: #F2F2F2
+
+.total-block
+  position: relative
+  border: 5px solid #F2F2F2
+  border-radius: 10px
+  height: 50px
+  width: 100%
+  float: left
+  padding: 10px
+  .TourName
+    position: absolute
+    left: 10px
+    top: 10px
+    color: #8A8A8A
+  .Amount
+    position: absolute
+    top: 10px
+    right: 10px
+    color: #8A8A8A
+
+.social
+  position: absolute
+  display: block
+  img
+    padding: 5px
+
+#logo
+  width: 80px
+  position: absolute
+  display: block
+  left: 40px
+  top: 40px
+
+#open
+  position: absolute
+  display: block
+  right: 30px
+  top: 0
+  cursor: pointer
+  z-index: 10
+  width: 30px
+  height: 20px
+  padding: 20px
+  @media (max-width: $mobile)
+    right: 15px
+    top: 5px
+  img
+    width: 14px
+
+#close
+  width: 20px
+  position: absolute
+  display: block
+  right: 20px
+  top: 20px
+  cursor: pointer
+  z-index: 10
+
+// Slide out Menu
+
+#menu
+  width: 100%
+  text-align: center
+  background: #ECECEC
+  border: 20px solid #FFF
+  position: fixed
+  padding: 20px 10px
+  height: 100vh
+  z-index: 9999
+  left: 0
+  top: 0
+  display: none
+  ul li
+    padding: 0
+    margin: 0
+    a
+      font-family: $brand-font
+      text-transform: uppercase
+      font-size: 60rem
+      color: #FF7D63
+      font-weight: 700
+      &:hover
+        color: #5070FF
+      img
+        width: 25px
+        padding: 20px 5px
+        -webkit-filter: grayscale(100%) /* Chrome, Safari, Opera */
+        filter: grayscale(100%)
+        background-blend-mode: multiply
+        &:hover
+          -webkit-filter: grayscale(0) /* Chrome, Safari, Opera */
+          filter: grayscale(0)
+    h5
+      font-size: 8rem
